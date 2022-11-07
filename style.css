@@ -668,7 +668,17 @@ a{
 
     .header{margin-bottom: 20rem;}
 
-    .circles{width: 400px;}
+    .nav-bar{padding: 0 3px;}
+
+    #nav-bar{padding: 10px 20px;}
+
+    .header-title{right: 0%;}
+
+    .circles{width: 400px; top: 27%;}
+
+    .circle-1{width: 180px; height: 180px; border: 77px solid #754EF9;}
+
+    .circle-2{width: 130px; height: 130px;}
 
     .media{top: 100rem; font-size: 17px;}
 
