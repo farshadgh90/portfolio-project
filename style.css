@@ -671,6 +671,8 @@ a{
     .nav-bar{padding: 0 3px;}
 
     #nav-bar{padding: 10px 20px;}
+    
+    a{font-size: 13px;}
 
     .header-title{right: 0%;}
 
