@@ -289,7 +289,7 @@ a{
 
 .portfolio-text{
     position: relative;
-    width: 710px;
+    margin-right: 5px;
 }
 
 .portfolio-img{
@@ -311,8 +311,9 @@ a{
     width: 705px;
     height: 350px;
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .portfolio-paragraph-section{
@@ -612,9 +613,9 @@ a{
     .nav-bar{padding: 0 10px;}
 
     .portfolio-row{
-        width: 90rem;
         display: inline-block;
         text-align: center;
+        width: 100%;
     }
 
     .comment, .comment-part{width: 92%;}
@@ -637,6 +638,12 @@ a{
     .footer--icons{padding: 7% 0;}
 }
 
+@media only screen and (max-width:776px){
+    .portfolio-hidden-img, .portfolio-paragraph{width: 350px;}
+
+    .portfolio-paragraph-section{padding: 35px 20px;}
+}
+
 @media only screen and (max-width:650px){
     .nav{right: 15%; top: -18%;}
 
@@ -650,15 +657,11 @@ a{
 
     .about-paragraph {padding: 0 40px; letter-spacing: 0px; line-height: 22px;}
 
-    .portfolio-row{width: 72rem;}
-
-    .portfolio-text{width: 560px;}
-
     .portfolio-hidden-img, .portfolio-paragraph{width: 350px;}
 
-    .portfolio-paragraph{left: 19%;}
-
     .portfolio-paragraph-section {padding: 30px 32px;}
+
+    .people-comment{padding: 0 50px;}
 }
 
 @media only screen and (max-width:500px){
@@ -680,13 +683,13 @@ a{
 
     .portfolio-paragraph{width: 350px;}
 
-    .portfolio-paragraph-section{padding-top: 55px; padding-right: 120px;}
+    .portfolio-paragraph-section{padding-top: 60px;}
 
     .portfolio-paragraph-header{font-size: 25px; margin-bottom: 12px;}
 
     .portfolio-paragraph-text{font-size: 11px; letter-spacing: 1.5px;}
 
-    .people-comment{padding: 0 37px;}
+    .people-comment{padding: 0 25px;}
 
     .input--text{margin-top: 15%;}
 
