@@ -604,7 +604,9 @@ a{
 
     .header-title-2{font-size: 15px; padding-left: 55px;}
 
-    .media{right: -16%;}
+    .media{transform: rotate(0); top: 90rem; left: 25%;}
+
+    .media-icon{transform: rotate(0);}
 
     .intro{right: 8%;}
 
@@ -651,8 +653,6 @@ a{
 
     .header-title{margin-right: 0; top: -11%; right: 20%;}
 
-    .media{right: -20%;}
-
     .intro{right: 3%;}
 
     .about-paragraph {padding: 0 40px; letter-spacing: 0px; line-height: 22px;}
@@ -665,11 +665,14 @@ a{
 }
 
 @media only screen and (max-width:500px){
+
+    .header{margin-bottom: 20rem;}
+
     .circles{width: 400px;}
 
-    .media{right: -43%;}
+    .media{top: 100rem; font-size: 17px;}
 
-    .intro{right: -11%;}
+    .intro{top: 90rem; left: 25%;}
 
     .about-header{font-size: 12px;}
 
